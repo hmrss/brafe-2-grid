@@ -1,5 +1,6 @@
 .container {
-  /* É possivel aumentar o container tanto no mobile quanto no tablet/pc */
+  /* É possivel aumentar o tamanho do container tanto no mobile quanto no 
+  tablet/pc ajustando o seu width*/
   max-width: 960px;
   margin: 0 auto;
 }
@@ -26,8 +27,7 @@
 .grid-mobile-6 {
   display: block;
   float: left; /* Todos sempre flutam */
-  /* para caso adicionar o grid-x a um elemento sem conteudo */
-  min-height: 1px;
+  min-height: 1px; /* para caso adicionar o grid-x a um elemento sem conteudo */
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -120,7 +120,8 @@
   .grid-10,
   .grid-11,
   .grid-12 {
-    float: none; /* Todos sempre flutam */
+    float: none; /* Não flutuam mais e consequentemente ficam um abaixo do
+    outro */
     width: 100%;
     margin-left: 0;
     margin-right: 0;
